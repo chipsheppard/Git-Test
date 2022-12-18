@@ -1,0 +1,39 @@
+# File system junk
+Desktop.ini
+Thumbs.db
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+.apdisk
+.fseventsd
+
+# Editor / Project files
+*.sublime-*
+*.swp
+*.zip
+*.sql
+*.gzip
+*.gz
+.c9
+.vscode
+sass-cache
+sftp-config.json
+todo.md
+
+# Docker
+/data/*
+/site/wp-content/plugins/*
+/site/wp-content/uploads/*
+
+# Package Managers
+*.lock
+.yarn/*
+.yarnrc.yml
+yarn-error.log
+bower_components
+node_modules
+
+# Wordpress
+/site/wp-content/themes/*
+!/site/wp-content/themes/boxpress
